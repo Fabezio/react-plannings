@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
-import planningMai from '../data/ADS'
+// import planningMai from '../data/ADS'
 
-function Grid () {
-  return <div className={styles.grid}>cartes</div>
+function Grid ({date}) {
+  return <div className={styles.grid}>{date}</div>
 }
 export default Grid
