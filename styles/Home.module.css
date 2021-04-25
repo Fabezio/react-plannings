@@ -1,5 +1,6 @@
+min-height: 100vh;
+
 .container {
-  min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -112,6 +113,14 @@
 
 .logo {
   height: 1em;
+}
+
+.block {
+  display: block;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 @media (max-width: 600px) {
