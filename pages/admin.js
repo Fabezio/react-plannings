@@ -1,30 +1,34 @@
 // import React from 'react'
-import Head  from 'next/head'
+import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Column from '../components/Column'
 
 function Admin () {
-    const  {card, grid, main, title, container} = styles
-    return (
+  const { card, grid, main, title, container } = styles
+  return (
     <div>
-        <Head>
+      <Head>
         <title>Plannings | Administrateur</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-    <div className={container}>
+      <Column>
+        <p>essai</p>
+      </Column>
+      <div className={container}>
         <h1 className={title}>Page administrateurs</h1>
         <main className={main}>
-            <div className={grid}>
-                <div className={card} >
-                    <p>info</p>
-                </div>
-                <div className={card} >
-                    <p>nouvelle info</p>
-                </div>
+          <div className={grid}>
+            <div className={card}>
+              <p>info</p>
             </div>
+            <div className={card}>
+              <p>nouvelle info</p>
+            </div>
+          </div>
         </main>
+      </div>
     </div>
-
-    </div>)
+  )
 }
 
 export default Admin

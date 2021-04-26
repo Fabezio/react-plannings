@@ -1,0 +1,8 @@
+.aside {
+  min-width: 10%;
+  max-width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

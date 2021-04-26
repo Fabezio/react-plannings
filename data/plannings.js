@@ -78,21 +78,21 @@ const plannings = {
       {
         jour: 9,
         chefJour: lhomme,
-        chefNuit: '',
+        chefNuit: riquet,
         agentJour: bonnet,
         agentNuit: jean
       },
       {
         jour: 10,
         chefJour: lhomme,
-        chefNuit: '',
+        chefNuit: riquet,
         agentJour: disci,
         agentNuit: jean
       },
       {
         jour: 11,
         chefJour: lhomme,
-        chefNuit: '',
+        chefNuit: riquet,
         agentJour: disci,
         agentNuit: kuhosa
       },
@@ -101,7 +101,7 @@ const plannings = {
         chefJour: lhomme,
         chefNuit: dossou,
         agentJour: frahi,
-        agentNuit: ''
+        agentNuit: kuhosa
       },
       {
         jour: 13,
@@ -112,10 +112,10 @@ const plannings = {
       },
       {
         jour: 14,
-        chefJour: '',
+        chefJour: renaud,
         chefNuit: dossou,
         agentJour: frahi,
-        agentNuit: ''
+        agentNuit: dossou
       },
       {
         jour: 15,
@@ -134,7 +134,7 @@ const plannings = {
       {
         jour: 17,
         chefJour: coulibaly,
-        chefNuit: '',
+        chefNuit: dossou,
         agentJour: ketir,
         agentNuit: jean
       },
@@ -234,7 +234,7 @@ const plannings = {
         chefJour: lhomme,
         chefNuit: kalle,
         agentJour: ketir,
-        agentNuit: ''
+        agentNuit: jean
       }
     ]
     /*{
